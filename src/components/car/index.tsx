@@ -62,6 +62,7 @@ const Car = () => {
     setRelease_date(item.release_date);
     setPower(item.power);
     setEditingItem(item);
+    
   };
 
   return (
