@@ -2,7 +2,7 @@ import { memo, useState, type FormEvent } from "react";
 import { useCars } from "../../api/hook/cars";
 
 const Car = () => {
-  const { getCars, getCarById, deleteCar, updateCar, createCar } = useCars();
+  const { getCars, deleteCar, updateCar, createCar } = useCars();
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
   const [brand, setBrand] = useState("");
